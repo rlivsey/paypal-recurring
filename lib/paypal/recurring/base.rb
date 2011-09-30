@@ -162,7 +162,7 @@ module PayPal
       #   response = ppr.update_recurring_profile
       #
       def update_recurring_profile
-        params = collect(:amount, :currency, :description, :note, :payer_id, :reference, :start_at, :outstanding, :ipn_url, :email)
+        params = collect(:amount, :currency, :description, :note, :profile_id, :reference, :start_at, :outstanding, :ipn_url, :email)
         request.run(:update_profile, params)
       end
 
