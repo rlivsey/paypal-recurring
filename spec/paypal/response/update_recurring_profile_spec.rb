@@ -12,7 +12,7 @@ describe PayPal::Recurring::Response::Profile do
         :ipn_url               => "http://example.com/paypal/ipn",
         :reference             => "1234",
         :note                  => "Changed Plan",
-        :payer_id              => "WTTS5KC2T46YU",
+        :profile_id            => "I-89LD5VEHEVK4",
         :outstanding           => :next_billing,
         :start_at              => Time.now,        
       })

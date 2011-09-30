@@ -154,7 +154,7 @@ module PayPal
       #     :note                  => "Changed plan to Gold",
       #     :ipn_url               => "http://example.com/paypal/ipn",
       #     :reference             => "1234",
-      #     :payer_id              => "WTTS5KC2T46YU",
+      #     :profile_id            => "I-VCEL6TRG35CU",
       #     :start_at              => Time.now,
       #     :outstanding           => :next_billing
       #   })
