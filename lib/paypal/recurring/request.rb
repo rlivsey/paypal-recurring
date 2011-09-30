@@ -7,7 +7,8 @@ module PayPal
         :details        => "GetExpressCheckoutDetails",
         :create_profile => "CreateRecurringPaymentsProfile",
         :profile        => "GetRecurringPaymentsProfileDetails",
-        :manage_profile => "ManageRecurringPaymentsProfileStatus"
+        :manage_profile => "ManageRecurringPaymentsProfileStatus",
+        :update_profile => "UpdateRecurringPaymentsProfile"
       }
 
       INITIAL_AMOUNT_ACTIONS = {
@@ -39,6 +40,7 @@ module PayPal
         :cancel_url            => "CANCELURL",
         :currency              => ["PAYMENTREQUEST_0_CURRENCYCODE", "CURRENCYCODE"],
         :description           => ["DESC", "PAYMENTREQUEST_0_DESC", "L_BILLINGAGREEMENTDESCRIPTION0"],
+        :note                  => "NOTE",
         :email                 => "EMAIL",
         :failed                => "MAXFAILEDPAYMENTS",
         :frequency             => "BILLINGFREQUENCY",

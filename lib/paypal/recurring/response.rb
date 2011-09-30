@@ -14,7 +14,8 @@ module PayPal
         :payment        => "Payment",
         :profile        => "Profile",
         :create_profile => "ManageProfile",
-        :manage_profile => "ManageProfile"
+        :manage_profile => "ManageProfile",
+        :update_profile => "ManageProfile"
       }
 
       def self.process(method, response)
